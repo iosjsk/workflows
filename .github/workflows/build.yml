@@ -6,8 +6,6 @@ jobs:
     steps:
       - name: get-Code
         uses: actions/checkout@v3
-      - name: install nodejs
-        uses: actions/setup-node@v3
       - name: install dependencies
         run: npm ci
       - name: Lint 
