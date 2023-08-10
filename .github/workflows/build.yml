@@ -1,7 +1,7 @@
 name: first Project
 on: push
 jobs:
-  lint and test:
+  project1:
     runs-on: ubuntu-latest
     steps:
       - name: get-Code
